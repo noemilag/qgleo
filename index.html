@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="fr-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!--HEAD-->
+<title>Le Quartier général de Léo</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Le QG de Léo : ses jeux et sa journée.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#010f24">
+<link rel="icon" type="image/png" sizes="32x32" href="icones/qg-32.png">
+<link rel="apple-touch-icon" href="icones/qg-180.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700;800;900&display=swap">
+<link rel="stylesheet" href="styles.css">
+<!--/HEAD-->
+</head>
+<body>
+<!--BODY-->
+<div class="page-wrap">
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Le Quartier général de Léo, accueil">
+      <span class="brand-icon"><svg viewBox="0 0 36 36" fill="none" aria-hidden="true"><path d="M19 2 6 20h10l-3 14 18-21H20l-1-11Z" fill="#09152d"/></svg></span>
+      <span>LE <strong>QG</strong> <span class="brand-muted">DE LÉO</span></span>
+    </a>
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="#mon-horaire">Mon horaire</a>
+      <a href="#mes-jeux">Mes jeux</a>
+    </nav>
+    <div class="header-date"><span class="status-dot"></span><span id="header-date">Aujourd'hui</span></div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <picture class="hero-bg" aria-hidden="true">
+        <source media="(max-width: 700px)" srcset="images/banniere-mobile.webp">
+        <img src="images/banniere.webp" alt="" width="2172" height="724">
+      </picture>
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> <span id="salut">SALUT, COMMANDANT !</span></div>
+        <h1 id="hero-title"><img class="logo-qg" src="images/logo-qg.webp" alt="Le Quartier général de Léo" width="1200" height="562"></h1>
+      </div>
+    </section>
+
+    <section class="tiles" id="mon-horaire" aria-label="Mon horaire et la météo">
+      <article class="day-tile c-auj" id="tuile-aujourdhui" role="button" tabindex="0" aria-haspopup="dialog" aria-label="Voir l'horaire d'aujourd'hui"></article>
+      <article class="day-tile c-demain" id="tuile-demain" role="button" tabindex="0" aria-haspopup="dialog" aria-label="Voir l'horaire du prochain jour"></article>
+      <article class="day-tile c-meteo" id="tuile-meteo" role="button" tabindex="0" aria-haspopup="dialog" aria-label="Météo : voir demain en détail"><div class="tile-text"><div class="day-label">MÉTÉO</div><div class="m-texte">Chargement…</div></div></article>
+    </section>
+
+    <section class="games-section" id="mes-jeux" aria-labelledby="games-heading">
+      <div class="section-row">
+        <div>
+          <h2 id="games-heading">Choisis ta <span>mission.</span></h2>
+        </div>
+        <span class="count-pill" id="count-pill"></span>
+      </div>
+      <div class="game-grid" id="game-grid"></div>
+    </section>
+  </main>
+
+  <footer>
+    <span>FAIT AVEC <span class="footer-heart">♥</span> POUR LÉO, PAR PAPA</span>
+    <button class="verrouiller" id="verrouiller" type="button" hidden>Verrouiller l'horaire</button>
+  </footer>
+</div>
+<div class="fenetre" id="fenetre" hidden>
+  <div class="fenetre-boite" id="fenetre-boite" role="dialog" aria-modal="true" aria-labelledby="fenetre-titre">
+    <button class="fermer" id="fermer" type="button" aria-label="Fermer">×</button>
+    <div id="fenetre-contenu"></div>
+  </div>
+</div>
+<!--/BODY-->
+<!--SCRIPTS-->
+<script src="config.js"></script>
+<script src="horaire.chiffre.js"></script>
+<script src="jeux.js"></script>
+<script src="cycle.js"></script>
+<script src="app.js"></script>
+<!--/SCRIPTS-->
+</body>
+</html>

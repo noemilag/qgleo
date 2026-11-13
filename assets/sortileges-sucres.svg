@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="t">
+<title id="t">Sortilèges sucrés — Léo, l'apprenti magicien</title>
+<defs>
+  <linearGradient id="ciel" x1="0" y1="0" x2="0" y2="1">
+    <stop stop-color="#0c1130"/><stop offset=".35" stop-color="#1c2258"/><stop offset=".7" stop-color="#2c2a52"/><stop offset="1" stop-color="#5a3623"/>
+  </linearGradient>
+  <radialGradient id="halo" cx=".5" cy=".5" r=".5"><stop stop-color="#5a5fa0" stop-opacity=".55"/><stop offset="1" stop-color="#5a5fa0" stop-opacity="0"/></radialGradient>
+  <radialGradient id="lune" cx=".45" cy=".42" r=".6"><stop stop-color="#f7e9c0"/><stop offset=".75" stop-color="#f1deae"/><stop offset="1" stop-color="#d9c48f"/></radialGradient>
+  <linearGradient id="chapeau" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#5b48cf"/><stop offset="1" stop-color="#3a2c99"/></linearGradient>
+  <linearGradient id="robe" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#3b33a6"/><stop offset="1" stop-color="#6a4aa8"/></linearGradient>
+  <radialGradient id="lueur" cx=".5" cy=".5" r=".5"><stop stop-color="#ffb648" stop-opacity=".75"/><stop offset=".45" stop-color="#ff9a2a" stop-opacity=".3"/><stop offset="1" stop-color="#ff9a2a" stop-opacity="0"/></radialGradient>
+  <radialGradient id="etoileG" cx=".45" cy=".4" r=".6"><stop stop-color="#fff2b0"/><stop offset="1" stop-color="#ffb43a"/></radialGradient>
+  <linearGradient id="bas" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".45"/></linearGradient>
+</defs>
+
+<!-- ciel -->
+<rect width="1024" height="1024" fill="url(#ciel)"/>
+<g fill="#fff">
+  <circle cx="35" cy="85" r="4"/><circle cx="125" cy="160" r="3.5"/><circle cx="177" cy="163" r="4"/><circle cx="60" cy="210" r="3"/><circle cx="440" cy="60" r="3"/><circle cx="470" cy="30" r="2.5"/>
+  <circle cx="600" cy="42" r="3"/><circle cx="770" cy="98" r="3"/><circle cx="805" cy="158" r="3.5"/><circle cx="912" cy="28" r="3.5"/><circle cx="836" cy="186" r="2.5"/><circle cx="967" cy="152" r="3"/>
+  <circle cx="880" cy="232" r="3.5"/><circle cx="962" cy="303" r="4"/><circle cx="903" cy="305" r="3"/><circle cx="1000" cy="375" r="3"/><circle cx="932" cy="522" r="4.5"/><circle cx="975" cy="564" r="3"/>
+  <circle cx="912" cy="680" r="4.5"/><circle cx="1015" cy="485" r="3"/><circle cx="125" cy="393" r="4"/><circle cx="78" cy="317" r="3"/><circle cx="248" cy="350" r="4"/><circle cx="290" cy="280" r="3"/>
+  <circle cx="22" cy="690" r="3"/><circle cx="210" cy="555" r="3"/><circle cx="355" cy="250" r="2.5"/><circle cx="740" cy="248" r="3.5"/><circle cx="780" cy="330" r="3"/><circle cx="845" cy="420" r="2.5"/>
+  <circle cx="825" cy="745" r="3"/><circle cx="235" cy="90" r="2.5"/><circle cx="700" cy="140" r="2.5"/>
+</g>
+<g fill="#ffcf7a"><circle cx="500" cy="3" r="4"/><circle cx="660" cy="103" r="3.5"/><circle cx="938" cy="615" r="3.5"/></g>
+
+<!-- lune -->
+<circle cx="512" cy="500" r="430" fill="url(#halo)"/>
+<circle cx="512" cy="508" r="290" fill="url(#lune)"/>
+<ellipse cx="432" cy="430" rx="58" ry="46" fill="#cdbb8a" opacity=".45"/>
+<circle cx="640" cy="490" r="20" fill="#cdbb8a" opacity=".45"/>
+<circle cx="415" cy="485" r="11" fill="#cdbb8a" opacity=".35"/>
+<path d="M410 403 Q430 360 480 340" fill="none" stroke="#b9d3e8" stroke-width="12" stroke-linecap="round" opacity=".5"/>
+
+<!-- coffre et bonbon derrière -->
+<rect x="610" y="955" width="100" height="90" rx="12" fill="#8a5426" stroke="#08070c" stroke-width="12"/>
+<line x1="610" y1="985" x2="710" y2="985" stroke="#08070c" stroke-width="8"/>
+<circle cx="652" cy="912" r="40" fill="#ffc23d" stroke="#08070c" stroke-width="12"/>
+<path d="M652 912 m-6 0 a6 6 0 1 1 12 0 a14 14 0 1 1 -26 0 a22 22 0 1 1 40 4" fill="none" stroke="#ff7a1a" stroke-width="7" stroke-linecap="round"/>
+
+<!-- robe -->
+<path d="M432 770 L612 770 L654 1040 L388 1040 Z" fill="url(#robe)" stroke="#08070c" stroke-width="16" stroke-linejoin="round"/>
+<path d="M578 862 l7 16 17 1 -13 11 4 17 -15 -9 -15 9 4 -17 -13 -11 17 -1 z" fill="#ffc23d"/>
+<path d="M445 980 l6 13 14 1 -11 9 4 14 -13 -8 -12 8 4 -14 -11 -9 14 -1 z" fill="#ffc23d"/>
+<circle cx="602" cy="1008" r="9" fill="#ffc23d"/>
+<!-- ceinture -->
+<rect x="408" y="948" width="226" height="46" rx="10" fill="#8a5426" stroke="#08070c" stroke-width="12"/>
+<rect x="493" y="944" width="54" height="54" rx="8" fill="#ffc23d" stroke="#08070c" stroke-width="12"/>
+
+<!-- foulard -->
+<path d="M590 772 Q680 790 735 860" fill="none" stroke="#08070c" stroke-width="64" stroke-linecap="round"/>
+<path d="M590 772 Q680 790 735 860" fill="none" stroke="#ff8a1f" stroke-width="40" stroke-linecap="round"/>
+<path d="M440 768 L612 768" stroke="#08070c" stroke-width="58" stroke-linecap="round"/>
+<path d="M440 768 L612 768" stroke="#ff8a1f" stroke-width="34" stroke-linecap="round"/>
+
+<!-- tête -->
+<ellipse cx="515" cy="652" rx="138" ry="112" fill="#f1c7a4" stroke="#08070c" stroke-width="16"/>
+<path d="M592 572 Q650 590 662 618 L646 690 Q622 660 604 650 Q594 610 592 572 Z" fill="#7a3f1e" stroke="#08070c" stroke-width="14" stroke-linejoin="round"/>
+<path d="M410 602 Q430 588 452 596" fill="none" stroke="#6a3418" stroke-width="10" stroke-linecap="round"/>
+<path d="M470 596 Q492 586 514 598" fill="none" stroke="#6a3418" stroke-width="10" stroke-linecap="round"/>
+<circle cx="435" cy="630" r="19" fill="#08070c"/><circle cx="490" cy="630" r="19" fill="#08070c"/>
+<circle cx="430" cy="623" r="6.5" fill="#fff"/><circle cx="485" cy="623" r="6.5" fill="#fff"/>
+<ellipse cx="407" cy="662" rx="20" ry="12" fill="#f28e8e" opacity=".8"/>
+<g fill="#b8673f"><circle cx="420" cy="671" r="5"/><circle cx="494" cy="676" r="5"/><circle cx="512" cy="664" r="5"/><circle cx="502" cy="690" r="4.5"/></g>
+<path d="M430 690 Q458 726 488 692" fill="none" stroke="#6b2a2a" stroke-width="11" stroke-linecap="round"/>
+
+<!-- chapeau -->
+<path d="M398 530 L505 275 L605 205 L566 312 L606 410 L626 530 Z" fill="url(#chapeau)" stroke="#08070c" stroke-width="16" stroke-linejoin="round"/>
+<path d="M495 372 l9 20 22 2 -17 14 5 22 -19 -11 -19 11 5 -22 -17 -14 22 -2 z" fill="#ffc23d"/>
+<ellipse cx="512" cy="540" rx="212" ry="44" fill="#3a2f8f" stroke="#08070c" stroke-width="16"/>
+<rect x="404" y="474" width="214" height="42" rx="4" fill="#ff8a1f" stroke="#08070c" stroke-width="14"/>
+<circle cx="620" cy="197" r="32" fill="#08070c"/><circle cx="620" cy="197" r="14" fill="#ff8a1f"/>
+
+<!-- bras et baguette -->
+<circle cx="130" cy="650" r="165" fill="url(#lueur)"/>
+<path d="M285 727 L150 652" stroke="#3a2416" stroke-width="22" stroke-linecap="round"/>
+<path d="M470 830 L290 728" stroke="#08070c" stroke-width="88" stroke-linecap="round"/>
+<path d="M470 830 L290 728" stroke="#34349a" stroke-width="58" stroke-linecap="round"/>
+<circle cx="283" cy="724" r="32" fill="#08070c"/>
+<path d="M150 588 L170 632 L218 636 L181 666 L193 713 L150 688 L108 713 L120 666 L83 636 L131 632 Z" fill="url(#etoileG)" stroke="#08070c" stroke-width="10" stroke-linejoin="round"/>
+<g fill="#ff9a2a"><circle cx="75" cy="608" r="9"/><circle cx="170" cy="595" r="9"/><circle cx="87" cy="705" r="9"/><circle cx="183" cy="690" r="9"/></g>
+
+<!-- bonbons qui flottent -->
+<line x1="300" y1="160" x2="308" y2="195" stroke="#08070c" stroke-width="12" stroke-linecap="round"/>
+<line x1="300" y1="160" x2="308" y2="195" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<circle cx="298" cy="145" r="24" fill="#ffc23d" stroke="#08070c" stroke-width="7"/>
+<path d="M298 145 m-4 0 a4 4 0 1 1 8 0 a9 9 0 1 1 -17 0 a14 14 0 1 1 26 3" fill="none" stroke="#ff7a1a" stroke-width="4.5" stroke-linecap="round"/>
+<g transform="rotate(-40 178 297)">
+  <rect x="140" y="275" width="76" height="44" rx="4" fill="#7a4524" stroke="#08070c" stroke-width="7"/>
+  <line x1="165" y1="275" x2="165" y2="319" stroke="#4f2a14" stroke-width="3"/><line x1="140" y1="297" x2="190" y2="297" stroke="#4f2a14" stroke-width="3"/>
+  <rect x="188" y="272" width="32" height="50" rx="3" fill="#d8283a" stroke="#08070c" stroke-width="7"/>
+  <rect x="196" y="272" width="10" height="50" fill="#ffc23d"/>
+</g>
+<g transform="rotate(25 120 515)" stroke="#08070c" stroke-width="6" fill="#56c3ea">
+  <circle cx="106" cy="490" r="9"/><circle cx="134" cy="490" r="9"/>
+  <circle cx="120" cy="503" r="17"/>
+  <ellipse cx="120" cy="530" rx="19" ry="21"/>
+  <circle cx="99" cy="519" r="8"/><circle cx="141" cy="519" r="8"/>
+  <circle cx="107" cy="549" r="8"/><circle cx="133" cy="549" r="8"/>
+</g>
+
+<!-- brume orangée en bas -->
+<rect y="780" width="1024" height="244" fill="url(#bas)" opacity=".5"/>
+</svg>

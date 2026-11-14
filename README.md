@@ -49,3 +49,7 @@ Ajouter à l'adresse : `?date=2026-11-16&heure=10:20`
 ## Ajouter un jeu
 
 Déposer son icône dans `assets/`, puis copier un bloc dans `jeux.js`.
+
+## Après une modification
+
+Dans `index.html`, change le numéro `?v=…` derrière `styles.css`, les scripts et les icônes (n'importe quel nouveau nombre). Ça force les téléphones à charger les nouveaux fichiers au lieu de garder une vieille copie en mémoire.

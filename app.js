@@ -400,6 +400,9 @@
           <span class="play-circle" aria-hidden="true">↗</span>
         </div>
       </a>`).join("");
+    // 3 colonnes quand ça remplit mieux les rangées (ex. 6 jeux), sinon 4
+    const n = JEUX.length;
+    $("game-grid").style.setProperty("--cols", n <= 4 ? Math.max(n, 1) : (n % 4 === 0 ? 4 : n % 3 === 0 ? 3 : 4));
     $("count-pill").innerHTML = `<span class="count-spark">✦</span> ${JEUX.length} UNIVERS À EXPLORER`;
   }
 

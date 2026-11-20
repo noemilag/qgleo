@@ -193,7 +193,7 @@ body.fenetre-ouverte { overflow: hidden }
 .jour-badge.off b { font-size: 26px }
 
 /* ── Jeux ── */
-.game-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 17px }
+.game-grid { display: grid; grid-template-columns: repeat(var(--cols, 4), minmax(0, 1fr)); gap: 17px }
 .game-card { display: block; min-width: 0; border-radius: 22px; border: 1px solid #5fb4ff2e; background: var(--card-2); overflow: hidden; transition: transform .2s, box-shadow .2s, border-color .2s; position: relative }
 .game-card:hover { transform: translateY(-8px); border-color: #d2f4ff7d; box-shadow: 0 24px 35px #0008 }
 .game-art { position: relative; height: 252px; overflow: hidden; display: grid; place-items: center }
@@ -201,6 +201,8 @@ body.fenetre-ouverte { overflow: hidden }
 .duel .game-art { background: linear-gradient(155deg, #275b4d, #0d2838) }
 .space .game-art { background: linear-gradient(155deg, #0f5bc4, #0a1f6e) }
 .magic .game-art { background: linear-gradient(155deg, #76508b, #392a65) }
+.mine .game-art { background: linear-gradient(155deg, #5a2a10, #1a0a04) }
+.coaster .game-art { background: linear-gradient(155deg, #0a8bd6, #0a2f86) }
 .lime .game-art { background: linear-gradient(155deg, #4c6a1e, #1d3316) }
 .coral .game-art { background: linear-gradient(155deg, #8a3b30, #4a1a2a) }
 .game-art:after { content: ""; width: 270px; height: 270px; position: absolute; border-radius: 50%; border: 1px solid #ffffff19; transform: translate(80px, 45px); box-shadow: 0 0 0 36px #ffffff05, 0 0 0 75px #ffffff05 }
@@ -215,6 +217,8 @@ body.fenetre-ouverte { overflow: hidden }
 .game-card:hover .play-circle { transform: rotate(45deg) }
 .candy .play-circle { background: #b14dff; box-shadow: 0 0 18px rgba(177, 77, 255, .55) } .duel .play-circle { background: #cff100; box-shadow: 0 0 18px rgba(207, 241, 0, .4) }
 .space .play-circle { background: #3fdcff; box-shadow: 0 0 18px rgba(63, 220, 255, .45) } .magic .play-circle { background: #ff8a00; box-shadow: 0 0 18px rgba(255, 138, 0, .5) }
+.mine .play-circle { background: #ffd000; box-shadow: 0 0 18px rgba(255, 208, 0, .45) }
+.coaster .play-circle { background: #ff2e9a; box-shadow: 0 0 18px rgba(255, 46, 154, .5) }
 .coral .play-circle { background: #ff9f7f }
 
 footer { display: flex; align-items: center; justify-content: space-between; gap: 10px; border-top: 1px solid var(--line); color: #6f8fbf; margin: 37px 0 0; padding: 21px 0 24px; font-size: 9px; font-weight: 900; letter-spacing: 1.7px }
